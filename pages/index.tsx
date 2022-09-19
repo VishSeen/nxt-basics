@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
 import About from './about'
 
@@ -67,7 +68,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
 
-      <About />
+      <Footer copyright="this is copyright vish_seen"/>
     </div>
   )
 }
